@@ -1,0 +1,62 @@
+    html {
+        background-color: lightblue;
+    }
+
+section {
+    /* position: relative; */
+    /* left: 100px; */
+    display: flex;
+}
+
+#jeopardyHeader {
+    font-size: 5vw;
+}
+
+#jeopardyClueFooter {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+input, button {
+    font-size: 1vw;
+}
+
+#headerDiv {
+    text-align: center;
+    position: relative;
+    border: 3px solid black;
+    height: 50%;
+    /* width: 90%; */
+    border-radius: 20%;
+    background-color: darkgray;
+}
+
+body {
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.cell {
+    padding-top: 60px;
+}
+
+article {
+    display: inline-block;
+    border: 5px solid black;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(44, 60, 206);
+    border-radius: 15%;
+    text-align: center;
+    color: white;
+    /* size: 90%; */
+    font-size: 2vw;
+}
+
+#displayClickedClueFooter, #userResponseFooter {
+    text-align: center;
+}
